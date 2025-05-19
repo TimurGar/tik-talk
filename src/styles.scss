@@ -1,1 +1,54 @@
 /* You can add global styles to this file, and also import other style files */
+
+:root{
+    --dark-color: #000000;
+    --light-color: #ffffff;
+    --primary-color: #AE7aff;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: var(--dark-color);
+    color: var(--light-color);
+    background-image: url(/assets/imgs/background.jpg);
+}
+
+.skill-tag{
+    display: inline;
+    padding: 0px 8px;
+    border: 1px solid var(--light-color);
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 24px;
+    height: 24px;
+}
+
+.btn{
+    border:none;
+    background-color: var(--primary-color);
+    color: var(--dark-color);
+    padding: 10px 20px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.h1{
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 56px;
+}
+
+.h6{
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 24px;
+}
